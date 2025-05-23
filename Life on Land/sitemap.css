@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.navBar img{
+    width: 80px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+.footer {
+    background: #74746a;
+    height: 75px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+   
+}
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.footer ul li{
+    justify-content: space-around;
+}
+
+
+.footer a{
+    color:#fff ;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.footer h1{
+    font-size: 20px;
+    color: white;
+      
+}
+.footer h2{
+    font-size: 20px;
+}   
+.footer a :visited{
+    color: #070606;
+}
+
+.footer a:hover{
+    color: #769580;
+    border-radius:3px ;
+
+}
+.copyright{
+    color: #070606;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer a:active{
+    color: #070606;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --c1 : #ae7f4d;
+    --c2 :#867d2c;
+    --c3:#54441b;
+    --c4:#dcaa68;
+    --c5:#5f310e;
+}
+
+h1{
+    text-align: center;
+    color:#867d2c;
+    font-weight: 600;
+}
+
+text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    fill: #867d2c;
+}
+
+.container{
+    background-color: var(--c5);
+}
+.title{
+    background-color:var(--c5);;
+}
+
+
+

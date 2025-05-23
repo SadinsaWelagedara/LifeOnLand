@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+.navBar img{
+    width: 80px;
+}
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
+    overflow-y: auto;
+}
+
+
+body {
+    margin: 0;
+    
+}
+
+.bgimg img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bgimg::after {
+    content: "";
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+
+
+.image {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+.image img {
+    width: 100px;
+}
+
+.image p {
+    padding: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;    
+    margin: 0;
+    padding-left: 50px;
+}
+
+.footer {
+    background: #74746a;
+    height: 75px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    
+    left: 0;
+    z-index: 2;
+   
+}
+
+
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.footer ul li{
+    justify-content: space-around;
+}
+
+
+.footer a{
+    color:#fff ;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.footer h1{
+    font-size: 20px;
+      
+}
+.footer h2{
+    font-size: 20px;
+}   
+.footer a :visited{
+    color: #070606;
+}
+
+.footer a:hover{
+    color: #769580;
+    border-radius:3px ;
+
+}
+.copyright{
+    color: #070606;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer a:active{
+    color: #769580;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.goal h3 {
+    color: #fff;
+    line-height:30px;
+    text-align: center; 
+    
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    padding: 20px 20px;
+    background: #769580;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.card h3{
+    color: #070606;
+    padding-top: 20px;
+}
+.card p{
+    color: #070606;
+    padding-top: 20px;
+}
+.content h2{
+    text-align: center;
+}
+
+
+button{
+    width: 100px;
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 0;
+    background: #56c02b;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+
+button:hover {
+    background: #fff;
+    color: #56c02b;
+    cursor: pointer;
+}
+
+
+.card1{
+    height: 170px;
+    width: 200px;
+    padding: 20px 20px;
+    background: #c9c3c0;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card1 img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+

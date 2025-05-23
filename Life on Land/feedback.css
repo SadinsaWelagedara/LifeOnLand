@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0 ;
+    background-size: cover;
+    background: #769580;
+}
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.navBar img{
+    width: 80px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+
+
+.footer {
+    background: #74746a;
+    height: 75px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+   
+}
+
+
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.footer ul li{
+    justify-content: space-around;
+}
+
+
+.footer a{
+    color:#fff ;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.footer h1{
+    font-size: 20px;
+      
+}
+.footer h2{
+    font-size: 20px;
+}   
+.footer a :visited{
+    color: #070606;
+}
+
+.footer a:hover{
+    color: #769580;
+    border-radius:3px ;
+
+}
+.copyright{
+    color: #070606;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer a:active{
+    color: #769580;
+}
+
+.heading{
+    color:#000000;
+    padding: 20px;
+}
+
+.heading h2{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; 
+    border-radius: 50px;   
+    
+}
+
+label{
+    color:#000000;
+    font-size: 16px;
+    margin: auto 10px;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    background-color:#898282;
+    outline: none;
+    border: 1px solid #278b6f;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    width: 100%;
+    background-color:#605c62 ;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #c2c1c7;
+}
+input[type="text"], input[type="email"], textarea{
+    margin-bottom: 40px;
+}
+
+input[type="text"], input[type="email"]{
+    height: 30px;
+}
+
+input::placeholder, textarea::placeholder{
+    color:#000000;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.qbox{
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+input[type="range"]{
+    width: 500px;
+    margin-top: 10px;
+}
+
+button{
+     width: 100px;
+    background-color:#5ca087;
+    height: 40px;
+    padding: 0 10px;
+    margin: auto;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px;
+}
+.red{
+    background-color: #5ca087;
+}
+.red:hover{
+    background-color: #a06e5c;
+}
+button:hover{
+    background-color:#a06e5c;
+}
+input, textarea{
+    color:rgb(0, 0, 0);
+}
+
+.stars i{
+    margin: 0 5px;
+    color:#769580;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:#000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.stars i:hover{
+    color:#cbd1cf;
+}
+
+.stars i.check{
+    color: #403b39;
+}
+
+
+
+

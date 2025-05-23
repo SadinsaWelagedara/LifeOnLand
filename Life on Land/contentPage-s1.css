@@ -1,0 +1,253 @@
+body{
+    background-color: antiquewhite;
+    z-index: -100;
+}
+
+.topic h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 150px;
+    background-color: rgb(54, 54, 110);
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links{
+    background-color: rgb(185, 159, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.links a{
+   color: rgb(77, 8, 8);
+    background-color: rgb(185, 159, 125);
+    margin: 20px;
+    
+}
+
+.content1{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content1:hover {
+    transform: scale(1.02);
+}
+
+.content2{
+    display: flex;
+    background-color: rgb(185, 159, 125);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content2:hover {
+    transform: scale(1.02);
+}
+
+.content3{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content3:hover {
+    transform: scale(1.02);
+}
+
+.content4{
+    display: flex;
+    background-color: rgb(185, 159, 125);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content4:hover {
+    transform: scale(1.02);
+}
+
+.content5{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content5:hover {
+    transform: scale(1.02);
+}
+
+.image img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.description {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    line-height: 45px;
+   
+}
+
+.description .details{
+    font-size: 20px;
+}
+
+.description .name{
+    font-size: 30px;
+}
+
+.editorpage{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+.navBar img{
+    width: 80px;
+}
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+.footer {
+    background: #74746a;
+    height: 75px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    
+    left: 0;
+    z-index: 2;
+   
+}
+
+
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.footer ul li{
+    justify-content: space-around;
+}
+
+
+.footer a{
+    color:#fff ;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.footer h1{
+    font-size: 20px;
+      
+}
+.footer h2{
+    font-size: 20px;
+}   
+.footer a :visited{
+    color: #070606;
+}
+
+.footer a:hover{
+    color: #769580;
+    border-radius:3px ;
+
+}
+.copyright{
+    color: #070606;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer a:active{
+    color: #070606;
+}

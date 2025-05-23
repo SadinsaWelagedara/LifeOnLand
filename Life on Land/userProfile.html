@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalDetails</title>
+    <link rel="stylesheet" href="userProfile.CSS">
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <a href="home.html"><img src="images/logos.png" alt="logos"></a>
+                <ul>
+                    <li><a href="home.html" >HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="userProfile.html">USER PROFILE</a></li>
+                    <li><a href="team.html">ABOUT US</a></li>
+                    <li><a href="sitemap.html">SITE MAP</a></li>
+                </ul>
+        </div>
+
+    </header>  
+
+    <div class="container">
+        <h1>Progressive User Profile</h1>
+        <div class="personalDetails">
+            <h2>Personal Details</h2>
+            <div id="step1" class="step">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name"  placeholder="Enter your first name here  " >
+            </div>
+            <div id="step2" class="step" style="display:none">
+                <label for="surname">Your Surname </label>
+                <input type="text" id="surName" placeholder="Enter your surname here">
+            </div>
+            <div id="step3" class="step" style="display:none">
+                <label for="age">Your Age:</label>
+                <input type="text" id="age"  placeholder="Enter your age here  ">
+            </div>
+            <div id="step4" class="step" style="display:none">
+                <label for="gender">Your Gender:</label>
+                <input type="text" id="gender"  placeholder="Enter your gender here  ">
+            </div>
+            <div id="step5" class="step" style="display:none">
+                <label for="privacyTerms">Whether you agree with the privacy policy:</label>
+                <input type="text" id="privacyTerms"  placeholder="Enter Yes if you agree, else enter No">
+            </div>
+
+            
+            <button onclick="nextStep()">Next</button>
+            <button onclick="skipStep()">Skip</button>
+        </div>
+
+        <div class="volunteeringTasks" style="display: none">
+            <h2>Volunteering Tasks</h2>
+            <div id="step6" class="step">
+                <label for="rational">Rational:</label>
+                <input type="text" id="rational"  placeholder="---------  ">
+            </div>
+            <div id="step7" class="step" style="display:none">
+                <label for="DoA">DoA: </label>
+                <input type="text" id="DoA" placeholder="-------------">
+            </div>
+            <div id="step8" class="step" style="display:none">
+                <label for="task">Task:</label>
+                <input type="text" id="task"  placeholder="-------------  ">
+            </div>
+            <div id="step9" class="step" style="display:none">
+                <label for="place">Place:</label>
+                <input type="text" id="place"  placeholder="----------- ">
+            </div>
+            <div id="step10" class="step" style="display:none">
+                <label for="assignmentType">Assignment Type:</label>
+                <input type="text" id="assignmentType"  placeholder="-----------------">
+            </div>
+
+             
+            <button onclick="nextStep()">Next</button>
+            <button onclick="skipStep()">Skip</button>
+
+        </div>
+        
+        <div class="qualifications" style="display: none">
+            <h2>Qualifications</h2>
+            <div id="step11" class="step">
+                <label for="areaOfStudy">Area of study:</label>
+                <input type="text" id="areaOfStudy"  placeholder="---------  ">
+            </div>
+            <div id="step12" class="step" style="display:none">
+                <label for="highestDegree">Highest Degree: </label>
+                <input type="text" id="highestDegree" placeholder="-------------">
+            </div>
+            <div id="step13" class="step" style="display:none">
+                <label for="university">University / Institution:</label>
+                <input type="text" id="university"  placeholder="-------------  ">
+            </div>
+            <div id="step14" class="step" style="display:none">
+                <label for="year">Completion Year:</label>
+                <input type="text" id="year"  placeholder="----------- ">
+            </div>
+            <div id="step15" class="step" style="display:none">
+                <label for="country">Country:</label>
+                <input type="text" id="country"  placeholder="-----------------">
+            </div>
+
+             
+            <button onclick="nextStep()">Next</button>
+            <button onclick="skipStep()">Skip</button>
+
+        </div>
+
+        <div class="availabilities" style="display: none">
+            <h2>Availabilities and contacts</h2>
+            <div id="step16" class="step">
+                <label for="volunteeringAvailability">Availability for volunteering:</label>
+                <input type="text" id="volunteeringAvailability"  placeholder="---------  ">
+            </div>
+            
+            <div id="step17" class="step" style="display:none">
+                <label for="surname2 ">Highest Degree: </label>
+                <input type="text" id="surname2" placeholder="-------------">
+            </div>
+            <div id="step18" class="step" style="display:none">
+                <label for="tel">Telephone Number:</label>
+                <input type="text" id="tel"  placeholder="-------------  ">
+            </div>
+            <div id="step19" class="step" style="display:none">
+                <label for="email">Email:</label>
+                <input type="email" id="email"  placeholder="----------- ">
+            </div>
+            <div id="step20" class="step" style="display:none">
+                <label for="text">Email:</label>
+                <input type="leave" id="leave"  placeholder="----------- ">
+                
+            </div>
+
+            <div id="step21" class="step" style="display:none">
+                <label for="text">Email:</label>
+                <input type="leave" id="leave"  placeholder="----------- ">
+                <img src="D:\IIT\web CW\thankyou.jpg" alt="Thankyou" width="300" height="300">
+                
+            </div>
+
+            <button onclick="nextStep()">Next</button>
+            <button onclick="skipStep()">Skip</button>
+
+        </div>    
+        
+    </div>
+
+    <div class="progress" >
+        <div id="progressBar" width="200">
+            
+        </div>
+    </div>
+    <div id="confirmation"></div>
+    
+    <div class="outputs"></div>
+    
+    <div class="Back">
+        <h3>Click on Back to navigate to the begining to complete the profile</h3>
+        <a href="#" onclick="Back()">Back</a>
+    </div>
+    
+
+    <script>
+         let currentStep = 1;
+         let currentLevel = 1;
+         let totalLevels = 4;
+         let totalSteps = 19;
+
+function updateProgressBar() {
+    const progressBar = document.getElementById('progressBar');
+    if (progressBar) {
+        let filledSteps = 0;
+        const inputs = document.querySelectorAll('.step input');
+        inputs.forEach(input => {
+            if (input.value.trim() !== "") {
+                filledSteps++;
+            }
+        });
+        const progress = (filledSteps / totalSteps) * 100;
+        progressBar.style.width = `${progress}%`;
+    }
+}
+
+
+function nextStep() {
+    const currentStepDiv = document.querySelector(`#step${currentStep}`);
+    const nextStepDiv = document.querySelector(`#step${currentStep + 1}`);
+    if (currentStepDiv && nextStepDiv) {
+        // Check if the current step requires input
+        const inputs = currentStepDiv.querySelectorAll('input');
+        let allInputsFilled = true;
+        inputs.forEach(input => {
+            if (!input.value.trim()) {
+                allInputsFilled = false;
+                alert('Please fill in all the fields.');
+                return; // Exit the loop early if any input field is empty
+            }
+        });
+        if (!allInputsFilled) return; // Stop further execution if any input field is empty
+
+        currentStepDiv.style.display = 'none';
+        nextStepDiv.style.display = 'block';
+        currentStep++;
+
+        // Check if the current step corresponds to completing a level
+        if (currentStep === 6 || currentStep === 11 || currentStep == 16 || currentStep == 20) {
+            const progress = (currentLevel / totalLevels) * 100;
+            currentLevel++;
+            document.getElementById('confirmation').innerHTML = "Profile_progress: " + progress.toFixed(2) + "%";
+            document.getElementById('confirmation').style.display = 'block';
+            updateProgressBar();
+
+            // Display the outputs for the completed level
+            const outputsDiv = document.querySelector('.outputs');
+            outputsDiv.style.display = 'block';
+
+            // Collect and display the relevant data for the completed level
+            switch (currentStep) {
+                case 6:
+                    const name = document.getElementById('name').value;
+                    const surName = document.getElementById('surName').value;
+                    const age = document.getElementById('age').value;
+                    const gender = document.getElementById('gender').value;
+                    const privacyTerms = document.getElementById('privacyTerms').value;
+
+                    outputsDiv.innerHTML += "Name: " + name + "<br>";
+                    outputsDiv.innerHTML += "Surname: " + surName + "<br>";
+                    outputsDiv.innerHTML += "Age: " + age + "<br>";
+                    outputsDiv.innerHTML += "Gender: " + gender + "<br>";
+                    outputsDiv.innerHTML += "Agree with privacy terms: " + privacyTerms + "<br>";
+
+                    // Hide the personal details section
+                    document.querySelector('.personalDetails').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.volunteeringTasks').style.display = 'block';
+                    break;
+
+                case 11:
+                    const rational = document.getElementById('rational').value;
+                    const DoA = document.getElementById('DoA').value;
+                    const task = document.getElementById('task').value;
+                    const place = document.getElementById('place').value;
+                    const assignmentType = document.getElementById('assignmentType').value;
+
+                    outputsDiv.innerHTML += "Rational: " + rational + "<br>";
+                    outputsDiv.innerHTML += "DoA: " + DoA + "<br>";
+                    outputsDiv.innerHTML += "Task: " + task + "<br>";
+                    outputsDiv.innerHTML += "Place: " + place + "<br>";
+                    outputsDiv.innerHTML += "Assignment Type: " + assignmentType + "<br>";
+
+                    // Hide the volunteering tasks section
+                    document.querySelector('.volunteeringTasks').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.qualifications').style.display = 'block';
+                    break;
+
+                case 16:
+                    const areaOfStudy = document.getElementById('areaOfStudy').value;
+                    const highestDegree = document.getElementById('highestDegree').value;
+                    const university = document.getElementById('university').value;
+                    const year = document.getElementById('year').value;
+                    const country = document.getElementById('country').value;
+
+                    outputsDiv.innerHTML += "Area of Study: " + areaOfStudy + "<br>";
+                    outputsDiv.innerHTML += "Heighest Degree: " + highestDegree + "<br>";
+                    outputsDiv.innerHTML += "University / Institution: " + university + "<br>";
+                    outputsDiv.innerHTML += "Complition Year: " + year + "<br>";
+                    outputsDiv.innerHTML += "Country: " + country + "<br>";
+
+                    // Hide the personal details section
+                    document.querySelector('.qualifications').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.availabilities').style.display = 'block';
+                    break;
+                
+                    case 20:
+                    const volunteeringAvailability = document.getElementById('volunteeringAvailability').value;
+                    const tel = document.getElementById('tel').value;
+                    const email = document.getElementById('email').value;
+
+                    outputsDiv.innerHTML += "Availability for volunteering: " + volunteeringAvailability + "<br>";
+                    outputsDiv.innerHTML += "Telephone Number: " + tel + "<br>";
+                    outputsDiv.innerHTML += "Email: " + email + "<br>";
+
+                    
+                     // Hide the availabilities section
+                    document.querySelector('.availabilities').style.display = 'none';
+
+                    // Show the thank you section
+                    const thankYouImage = document.createElement('img');
+                    thankYouImage.src = 'D:\\IIT\\web CW\\images\\thankyou.jpg'; // Adjust the path as per your file structure
+                    thankYouImage.alt = 'Thank You';
+                    thankYouImage.width = '350';
+                    thankYouImage.height = '350';
+                    outputsDiv.appendChild(thankYouImage);
+
+                    break;
+            }
+        }
+    } else {
+        document.getElementById('confirmation').style.display = 'block';
+        document.querySelector('.progress').style.display = 'none';
+    }
+}
+function Back() {
+    // Reset the form fields
+    resetForm();
+
+    // Show the personal details section
+    document.querySelector('.personalDetails').style.display = 'block';
+
+    // Scroll to the beginning of the form
+    window.scrollTo(0, 0);
+}
+
+function resetForm() {
+    
+
+    // Show the first step of the form and hide the rest
+    document.querySelectorAll('.step').forEach(step => step.style.display = 'none');
+    document.getElementById('step1').style.display = 'block';
+
+    // Hide the outputs
+    document.querySelector('.outputs').innerHTML = '';
+    document.querySelector('.outputs').style.display = 'none';
+
+    // Reset the progress bar
+    const progressBar = document.getElementById('progressBar');
+    if (progressBar) {
+        progressBar.style.width = '0%';
+    }
+
+    // Reset the confirmation message
+    const confirmationMessage = document.getElementById('confirmation');
+    if (confirmationMessage) {
+        confirmationMessage.style.display = 'none';
+    }
+
+    // Reset current step and level
+    currentStep = 1;
+    currentLevel = 1;
+}
+
+function skipStep() {
+    const currentStepDiv = document.querySelector(`#step${currentStep}`);
+    const nextStepDiv = document.querySelector(`#step${currentStep + 1}`);
+    
+
+    if (currentStepDiv && nextStepDiv ) {
+        currentStepDiv.style.display = 'none';
+        nextStepDiv.style.display = 'block';
+        currentStep++;
+
+        // Check if the current step corresponds to completing a level
+        if (currentStep === 6 || currentStep === 11 || currentStep == 16 || currentStep == 20) {
+            const progress = (currentLevel / totalLevels) * 100;
+            currentLevel++;
+            document.getElementById('confirmation').innerHTML = "Profile_progress: " + progress.toFixed(2) + "%";
+            document.getElementById('confirmation').style.display = 'block';
+            
+            updateProgressBar();
+         
+
+            // Display the outputs for the completed level
+            const outputsDiv = document.querySelector('.outputs');
+            outputsDiv.style.display = 'block';
+
+            // Collect and display the relevant data for the completed level
+            switch (currentStep) {
+                case 6:
+                    const name = document.getElementById('name').value;
+                    const surName = document.getElementById('surName').value;
+                    const age = document.getElementById('age').value;
+                    const gender = document.getElementById('gender').value;
+                    const privacyTerms = document.getElementById('privacyTerms').value;
+
+                    outputsDiv.innerHTML += "Name: " + name + "<br>";
+                    outputsDiv.innerHTML += "Surname: " + surName + "<br>";
+                    outputsDiv.innerHTML += "Age: " + age + "<br>";
+                    outputsDiv.innerHTML += "Gender: " + gender + "<br>";
+                    outputsDiv.innerHTML += "Agree with privacy terms: " + privacyTerms + "<br>";
+
+                    // Hide the personal details section
+                    document.querySelector('.personalDetails').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.volunteeringTasks').style.display = 'block';
+                    break;
+
+                case 11:
+                    const rational = document.getElementById('rational').value;
+                    const DoA = document.getElementById('DoA').value;
+                    const task = document.getElementById('task').value;
+                    const place = document.getElementById('place').value;
+                    const assignmentType = document.getElementById('assignmentType').value;
+
+                    outputsDiv.innerHTML += "Rational: " + rational + "<br>";
+                    outputsDiv.innerHTML += "DoA: " + DoA + "<br>";
+                    outputsDiv.innerHTML += "Task: " + task + "<br>";
+                    outputsDiv.innerHTML += "Place: " + place + "<br>";
+                    outputsDiv.innerHTML += "Assignment Type: " + assignmentType + "<br>";
+
+                    // Hide the volunteering tasks section
+                    document.querySelector('.volunteeringTasks').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.qualifications').style.display = 'block';
+                    break;
+
+                case 16:
+                    const areaOfStudy = document.getElementById('areaOfStudy').value;
+                    const highestDegree = document.getElementById('highestDegree').value;
+                    const university = document.getElementById('university').value;
+                    const year = document.getElementById('year').value;
+                    const country = document.getElementById('country').value;
+
+                    outputsDiv.innerHTML += "Area of Study: " + areaOfStudy + "<br>";
+                    outputsDiv.innerHTML += "Heighest Degree: " + highestDegree + "<br>";
+                    outputsDiv.innerHTML += "University / Institution: " + university + "<br>";
+                    outputsDiv.innerHTML += "Complition Year: " + year + "<br>";
+                    outputsDiv.innerHTML += "Country: " + country + "<br>";
+
+                    // Hide the personal details section
+                    document.querySelector('.qualifications').style.display = 'none';
+
+                    // Show the next section
+                    document.querySelector('.availabilities').style.display = 'block';
+                    break;
+                
+                    case 20:
+                    const volunteeringAvailability = document.getElementById('volunteeringAvailability').value;
+                    const tel = document.getElementById('tel').value;
+                    const email = document.getElementById('email').value;
+
+                    outputsDiv.innerHTML += "Availability for volunteering: " + volunteeringAvailability + "<br>";
+                    outputsDiv.innerHTML += "Telephone Number: " + tel + "<br>";
+                    outputsDiv.innerHTML += "Email: " + email + "<br>";
+
+                    
+                     // Hide the availabilities section
+                    document.querySelector('.availabilities').style.display = 'none';
+
+                    // Show the thank you section
+                    const thankYouImage = document.createElement('img');
+                    thankYouImage.src = "images/thankyou.jpg"; // Adjust the path as per your file structure
+                    thankYouImage.alt = 'Thank You';
+                    thankYouImage.width = '350';
+                    thankYouImage.height = '350';
+                    outputsDiv.appendChild(thankYouImage);
+
+                    break;
+            }
+        }     
+        
+    } else {
+        document.getElementById('confirmation').style.display = 'block';
+        document.querySelector('.progress').style.display = 'none';
+    }
+}
+
+
+window.onload = () => {
+            document.getElementById('step1').style.display = 'block';
+    };
+
+ 
+
+    </script>
+     <footer>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="pageEditor-s1.html">
+                         <h1>LOCHANA</h1>
+                        <h2> WIJESINGHE</h2></a>
+                </li>
+                
+                <li><a href="pageEditor2.html">
+                    <h1>SADINSA</h1>
+                    <h2> WELAGEDARA</h2>
+                    </a>
+                </li>
+                <li><a href="pageEditor3.html">
+                    <h1>SEHANSA</h1>
+                    <h2> COSTA</h2>
+                    </a>
+                </li>
+                <li><a href="pageEditor4.html">
+                    <h1>WUVANSA</h1>
+                    <h2> SURAWEERA</h2>
+                    </a>
+                </li> 
+            </ul>
+            
+            <div class="copyright">
+                <p>Copyright &copy; 2024</p>
+            </div>
+
+        </div>
+       
+    </footer>  
+    
+</body>
+</html>

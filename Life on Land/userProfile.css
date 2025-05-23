@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 169, 129);
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.personalDetails {
+    background-color: #f9f9f6;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 3px 15px rgba(71, 24, 24, 0.7);
+}
+
+.step {
+    margin-bottom: 10px;
+}
+
+.step label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.step input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #b46161;
+}
+.step input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #b46161;
+}
+
+button {
+    position: relative;
+    top: 90px;
+    left: 300px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    
+    background-color: #007bff;
+    color: #080809;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #7b9ee6;
+}
+
+.progress{
+    border:2px solid white; 
+    height: 20px;
+    background-color: #74746a;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#confirmation {
+    display: none;
+    color: rgb(14, 12, 12);
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#progressBar {
+    position: relative;
+    width: 0%;
+    height: 20px;
+    border:2px  black;
+    background-color: #4CAF50;
+    border-radius: 5px;
+   
+}
+
+.outputs{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 500px;
+    display: block;
+    color: black;
+}
+
+.volunteeringTasks{
+    background-color: #f9f9f6;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 3px 15px rgba(71, 24, 24, 0.7);
+    display:block;
+}
+
+.qualifications{
+    background-color: #f9f9f6;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 3px 15px rgba(71, 24, 24, 0.7);
+    display:block;
+}
+
+.availabilities{
+    background-color: #f9f9f6;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 3px 15px rgba(71, 24, 24, 0.7);
+    display:block;
+}
+.Back{
+    margin-left: 200px;
+    background-color: rgb(177, 180, 95);
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 3px 15px rgba(71, 24, 24, 0.7);
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.navBar img{
+    width: 80px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+
+
+.footer {
+    background: #74746a;
+    height: 75px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+   
+}
+
+
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.footer ul li{
+    justify-content: space-around;
+}
+
+
+.footer a{
+    color:#fff ;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.footer h1{
+    font-size: 20px;
+      
+}
+.footer h2{
+    font-size: 20px;
+}   
+.footer a :visited{
+    color: #070606;
+}
+
+.footer a:hover{
+    color: #769580;
+    border-radius:3px ;
+
+}
+.copyright{
+    color: #070606;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px auto 5px auto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.footer a:active{
+    color: #070606;
+}
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #b99f7d;
+    
+    
+}
+
+.navBar{
+    top: 0;
+    background-color:#2B7141;
+    padding-top: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.navBar img{
+    width: 80px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0px;
+    top: 0;
+    overflow: hidden;
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.navBar a{
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.navBar a:hover{
+    background: #74746a;
+}
+
+.navBar li{
+    display: inline;
+}
+
+.heading{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color:#b99f7d;
+    justify-content: center;
+}
+.heading h1{
+   
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 200;
+    
+}
+.heading ul{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 500px;
+}
+
+
+.topic1{
+    display: flex;
+    background-color: #bdbd9b;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.topic1:hover {
+    transform: scale(1.02);
+}
+
+.topic2{
+    display: flex;
+    background-color:#b99f7d;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.topic2:hover {
+    transform: scale(1.02);
+}
+
+.topic3{
+    display: flex;
+    background-color: #bdbd9b;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.topic3:hover {
+    transform: scale(1.02);
+}
+
+.topic4{
+    display: flex;
+    background-color: #b99f7d;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.topic4:hover {
+    transform: scale(1.02);
+}
+
+
+
+.image img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: auto;
+    width: 400px;
+    height: 250px;
+    display: flex;
+}
+
+.Description {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    line-height: 45px;
+   
+}
+
+.Description .details{
+    font-size: 20px;
+}
+
+.Description .name{
+    font-size: 30px;
+}
+
+.editpage{
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
